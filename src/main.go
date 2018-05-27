@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	err := godotenv.Load("/Users/lihao/GoglandProjects/src/github.com/blockchain/src/example.env")
+	err := godotenv.Load("src/properties.env")
 	if err != nil {
 		log.Fatal(err)
 	}
